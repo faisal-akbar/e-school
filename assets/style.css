@@ -1,0 +1,210 @@
+/* Frequently used color Var*/
+:root {
+  --primary-color: #21B573;
+  --secondary-color: #F0FFF0;
+  --white-color: #FFF;
+}
+
+
+/******** Reset Body *********/
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+}
+
+header,
+section {
+  margin-bottom: 65px;
+}
+
+
+
+/**** Navigation Style ******/
+
+#main-nav {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #F0FFF0;
+}
+
+#main-nav .navbar-toggler {
+  padding: 12px;
+  font-size: 0.75rem;
+  color: var(--white-color);
+  text-transform: uppercase;
+  background-color: #333;
+  border: 0;
+  border-radius: 5px;
+}
+
+.navbar-brand img {
+  height: 59px;
+  width: 194px;
+}
+
+
+
+/* Top Banner and Header */
+header.main-head {
+  padding-top: 112px;
+  padding-bottom: 64px;
+  text-align: left;
+  background-color: var(--secondary-color);
+
+}
+
+.main-head h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 4.3rem;
+}
+
+.main-head h4 {
+  font-size: 1rem;
+  color: #FD511A;
+}
+
+.main-head p {
+  font-size: 1rem;
+  color: #6C6B6B;
+  line-height: 2.25rem;
+}
+
+/* Text highlight */
+.primary-highlight {
+  color: var(--primary-color);
+}
+
+/* Underline in section title */
+.secondary-highlight {
+  width: 120px;
+  height: 8px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, var(--primary-color), #ffff00);
+}
+
+
+
+/* Button Style Change*/
+.btn-primary {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 33px;
+  padding: 12px 36px;
+  font-size: 1rem;
+  line-height: 1.19rem;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--primary-color);
+  opacity: 0.9;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: var(--primary-color);
+  border: none;
+}
+
+/*** Footer Sign up Button ***/
+.btn-outline-success {
+  border-radius: 40px;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  ;
+}
+
+.btn-outline-success:hover {
+  background-color: var(--primary-color);
+}
+
+.btn-success:not(:disabled):not(.disabled):active {
+  background-color: var(--primary-color);
+  border: none;
+}
+
+
+/*** Courses Card***/
+
+#courses .card {
+  background-color: var(--white-color);
+  border: none;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+}
+
+#courses .card-img-top {
+  padding: 20px;
+}
+
+
+#overview .card-img-top {
+
+  max-width: 70px;
+  max-height: 115px;
+  margin: 0 auto;
+}
+
+#overview .card {
+  padding: 30px;
+  border: none;
+  background: #F8FFFB;
+  transition: 0.3s ease-in;
+}
+
+
+#overview .card:hover {
+  background: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+
+}
+
+.card-footer {
+  background-color: var(--white-color);
+  border-top: none;
+  padding-bottom: 24px;
+}
+
+.card-footer img {
+  width: 24px;
+  height: 24px;
+}
+
+.card-title {
+  color: #413960;
+  font-size: 1.5rem;
+}
+
+.card-text,
+.card-footer p {
+  color: #585859;
+}
+
+/**** Courses & Testimonial ***/
+#courses h4,
+#testimonial h4 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #413960;
+}
+
+
+/* Footer */
+
+/* All Links */
+a {
+  color: var(--white-color)
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+.footer-bg {
+  background-color: #282531;
+}
+
+
+/**************END*****************/
