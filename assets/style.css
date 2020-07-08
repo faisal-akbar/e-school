@@ -19,7 +19,6 @@ section {
 }
 
 
-
 /**** Navigation Style ******/
 
 #main-nav {
@@ -58,6 +57,7 @@ header.main-head {
   font-size: 3rem;
   font-weight: bold;
   line-height: 4.3rem;
+  max-width: 405px;
 }
 
 .main-head h4 {
