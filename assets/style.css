@@ -142,10 +142,8 @@ header.main-head {
 
 
 #overview .card-img-top {
-
   max-width: 70px;
   max-height: 115px;
-  margin: 0 auto;
 }
 
 #overview .card {
@@ -167,6 +165,7 @@ header.main-head {
   background-color: var(--white-color);
   border-top: none;
   padding-bottom: 24px;
+  border-radius: 18px !important;
 }
 
 .card-footer img {
