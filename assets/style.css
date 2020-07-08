@@ -192,15 +192,21 @@ header.main-head {
 }
 
 
+/* Link */
+
+
+
 /* Footer */
 
 /* All Links */
 a {
-  color: var(--white-color)
+  color: var(--white-color);
+  cursor: pointer;
 }
 
 a:hover {
   color: var(--primary-color);
+  text-decoration: none;
 }
 
 .footer-bg {
