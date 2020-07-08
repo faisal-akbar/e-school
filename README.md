@@ -8,4 +8,3 @@ A dummy e-school website.
 
 - Bootstrap
 - Custom CSS
-- JavaScript for Smooth Scrolling
